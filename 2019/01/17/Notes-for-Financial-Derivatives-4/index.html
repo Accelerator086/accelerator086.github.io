@@ -155,99 +155,102 @@
     }
     detectApple()
     document.addEventListener('pjax:complete', detectApple)})(window)</script><style type="text/css">#toggle-sidebar {left:100px}</style><meta name="generator" content="Hexo 5.3.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/pic/15888928.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">55</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">43</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">23</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/selftalk/"><i class="fa-fw fas fa-heart"></i><span> Selftalk</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/douban/movies/index.html"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://blogwaline-alpha.vercel.app/ui"><i class="fa-fw fas fa-suitcase"></i><span> Backstage</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Accelerator086</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/selftalk/"><i class="fa-fw fas fa-heart"></i><span> Selftalk</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/douban/movies/index.html"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://blogwaline-alpha.vercel.app/ui"><i class="fa-fw fas fa-suitcase"></i><span> Backstage</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">Financial Derivatives Chapter 4：Options Pricing Principles</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2019-01-16T16:00:00.000Z" title="发表于 2019-01-17 00:00:00">2019-01-17</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-11-12T16:16:43.889Z" title="更新于 2021-11-13 00:16:43">2021-11-13</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Financial-Derivatives/">Financial Derivatives</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">3.1k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>11分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Financial Derivatives Chapter 4：Options Pricing Principles"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div><article class="post-content" id="article-container"><p>[toc]</p>
-<h1 id="期权的价值特征"><a href="#期权的价值特征" class="headerlink" title="期权的价值特征"></a>期权的价值特征</h1><h2 id="期权价值变化特征"><a href="#期权价值变化特征" class="headerlink" title="期权价值变化特征"></a>期权价值变化特征</h2><p><img src="https://raw.githubusercontent.com/Accelerator086/accelerator086-image-upload/master/20200331150803.png" alt=""></p>
-<h3 id="直观解释"><a href="#直观解释" class="headerlink" title="直观解释"></a>直观解释</h3><ul>
-<li><p>股票价格和执行价；距离到期的时间</p>
-</li>
-<li><p>红利：在除息日，红利将减少股票的价格</p>
-</li>
-<li><p>波动率：用来度量股票未来价格不确定变化程度的指标。随着波动率增加，期权的价值也会增加，即波动率增加对期权的影响总是有利的。</p>
-</li>
-<li><p>无风险利率：无风险利率对期权价值的影响是比较复杂的。影响来自两个方面，一方面，股票价格的预期增长率随着利率的上升而上升；另一方面，利率上升将提高贴现率，减少了期权多头收到的未来现金流的现值。对于卖权来说，这两种作用都是不利的，因此，利率越高，卖权的价值越低。对于买权来说，前一种作用是有利的，后一种作用是不利的。可以证明，前一种作用相对于后一种作用占优，因此，利率越高，买权的价值越高。</p>
-</li>
-</ul>
-<h2 id="期权价值结构"><a href="#期权价值结构" class="headerlink" title="期权价值结构"></a>期权价值结构</h2><h3 id="实值期权、平价期权、虚值期权"><a href="#实值期权、平价期权、虚值期权" class="headerlink" title="实值期权、平价期权、虚值期权"></a>实值期权、平价期权、虚值期权</h3><p>对于看涨期权来说，为了区别标的资产市价（S）与协议价格（X）的关系如下：</p>
+<h1 id="期权的价值特征">期权的价值特征</h1>
+<h2 id="期权价值变化特征">期权价值变化特征</h2>
+<p><img src="https://raw.githubusercontent.com/Accelerator086/accelerator086-image-upload/master/20200331150803.png" /></p>
+<h3 id="直观解释">直观解释</h3>
 <ul>
-<li><p>$S  &gt; X$ 时的看涨期权称为实值看涨期权（In the Money），如果期权立即执行，将具有正收益特征；</p>
-</li>
-<li><p>$S  = X$ 时的看涨期权称为平价（两平）看涨期权（At the Money），如果期权立即执行，将具有零收益特征；</p>
-</li>
-<li><p>$S &lt; X $时的看涨期权称为虚值看涨期权（Out of the Money）。</p>
-</li>
+<li><p>股票价格和执行价；距离到期的时间</p></li>
+<li><p>红利：在除息日，红利将减少股票的价格</p></li>
+<li><p>波动率：用来度量股票未来价格不确定变化程度的指标。随着波动率增加，期权的价值也会增加，即波动率增加对期权的影响总是有利的。</p></li>
+<li><p>无风险利率：无风险利率对期权价值的影响是比较复杂的。影响来自两个方面，一方面，股票价格的预期增长率随着利率的上升而上升；另一方面，利率上升将提高贴现率，减少了期权多头收到的未来现金流的现值。对于卖权来说，这两种作用都是不利的，因此，利率越高，卖权的价值越低。对于买权来说，前一种作用是有利的，后一种作用是不利的。可以证明，前一种作用相对于后一种作用占优，因此，利率越高，买权的价值越高。</p></li>
+</ul>
+<h2 id="期权价值结构">期权价值结构</h2>
+<h3 id="实值期权平价期权虚值期权">实值期权、平价期权、虚值期权</h3>
+<p>对于看涨期权来说，为了区别标的资产市价（S）与协议价格（X）的关系如下：</p>
+<ul>
+<li><p><span class="math inline">\(S &gt; X\)</span> 时的看涨期权称为实值看涨期权（In the Money），如果期权立即执行，将具有正收益特征；</p></li>
+<li><p><span class="math inline">\(S = X\)</span> 时的看涨期权称为平价（两平）看涨期权（At the Money），如果期权立即执行，将具有零收益特征；</p></li>
+<li><p>$S &lt; X $时的看涨期权称为虚值看涨期权（Out of the Money）。</p></li>
 </ul>
 <p>对于看跌期权来说，类似可以定义其状态。</p>
-<p>其中：深度实值看涨期权：$S \gg X$；深度虚值看涨期权：$S \ll X$</p>
-<h3 id="期权的内在价值"><a href="#期权的内在价值" class="headerlink" title="期权的内在价值"></a>期权的内在价值</h3><p>期权的内在价值（Intrinsic Value）：期权多头行使期权时可以获得的收益，一般只有美式期权可以马上看到。其中：</p>
+<p>其中：深度实值看涨期权：<span class="math inline">\(S \gg X\)</span>；深度虚值看涨期权：<span class="math inline">\(S \ll X\)</span></p>
+<h3 id="期权的内在价值">期权的内在价值</h3>
+<p>期权的内在价值（Intrinsic Value）：期权多头行使期权时可以获得的收益，一般只有美式期权可以马上看到。其中：</p>
 <ul>
-<li>美式看涨期权的内在价值为 $\max(S - X,0)$，美式看跌期权的内在价值为 $\max(X - S,0)$</li>
+<li>美式看涨期权的内在价值为 <span class="math inline">\(\max(S - X,0)\)</span>，美式看跌期权的内在价值为 <span class="math inline">\(\max(X - S,0)\)</span></li>
 </ul>
-<p>内在价值原理：期权的价格决不会低于其内在价值，即 $c &gt; \max(S - X,0) \geq S -X$（以看涨期权为例）</p>
-<h4 id="欧式期权的内在价值"><a href="#欧式期权的内在价值" class="headerlink" title="欧式期权的内在价值"></a>欧式期权的内在价值</h4><p>欧式看涨期权在到期日 T 时刻的内在价值为</p>
-<script type="math/tex; mode=display">
-\max(S_{T} - X,0)</script><p>无收益资产的欧式看涨期权在 t 时刻的内在价值为：</p>
-<script type="math/tex; mode=display">
-\max(S_{t} - Xe^{- r(T - t)},0)</script><p>有收益资产欧式看涨期权在 t 时刻的内在价值为</p>
-<script type="math/tex; mode=display">
-\max(S_{t} - D - Xe^{- r(T - t)},0)</script><p>其中D为标的资产在期权持有期内红利收益现金流在 t 时刻的现值。</p>
-<p>无收益资产欧式看跌期权在 t 时刻的内在价值为</p>
-<script type="math/tex; mode=display">
-X{\ e}^{- r(T - t)} - S</script><p>有收益资产欧式看跌期权在 t 时刻的内在价值为</p>
-<script type="math/tex; mode=display">
-Xe^{- r(T - t)} + D - S\</script><p>当然，当标的资产市价高于协议价格时，期权多方是不会行使期权的，因此欧式看跌期权的内在价值应 $\geq 0$</p>
-<h3 id="期权的时间价值"><a href="#期权的时间价值" class="headerlink" title="期权的时间价值"></a>期权的时间价值</h3><p>期权的时间价值（Time Value）：期权价格与其内在价值之间的差额，或称投机价值。其中：</p>
+<p>内在价值原理：期权的价格决不会低于其内在价值，即 <span class="math inline">\(c &gt; \max(S - X,0) \geq S -X\)</span>（以看涨期权为例）</p>
+<h4 id="欧式期权的内在价值">欧式期权的内在价值</h4>
+<p>欧式看涨期权在到期日 T 时刻的内在价值为 <span class="math display">\[
+\max(S_{T} - X,0)
+\]</span></p>
+<p>无收益资产的欧式看涨期权在 t 时刻的内在价值为： <span class="math display">\[
+\max(S_{t} - Xe^{- r(T - t)},0)
+\]</span></p>
+<p>有收益资产欧式看涨期权在 t 时刻的内在价值为 <span class="math display">\[
+\max(S_{t} - D - Xe^{- r(T - t)},0)
+\]</span></p>
+<p>其中D为标的资产在期权持有期内红利收益现金流在 t 时刻的现值。</p>
+<p>无收益资产欧式看跌期权在 t 时刻的内在价值为 <span class="math display">\[
+X{\ e}^{- r(T - t)} - S
+\]</span></p>
+<p>有收益资产欧式看跌期权在 t 时刻的内在价值为 <span class="math display">\[
+Xe^{- r(T - t)} + D - S\
+\]</span></p>
+<p>当然，当标的资产市价高于协议价格时，期权多方是不会行使期权的，因此欧式看跌期权的内在价值应 <span class="math inline">\(\geq 0\)</span></p>
+<h3 id="期权的时间价值">期权的时间价值</h3>
+<p>期权的时间价值（Time Value）：期权价格与其内在价值之间的差额，或称投机价值。其中：</p>
 <ul>
-<li><p>期权的时间价值反映了交易商愿意为标的资产价格波动的不确定性所支付的代价。</p>
-</li>
-<li><p>标的资产价格的波动率越高，期权的时间价值就越大。</p>
-</li>
-<li><p>时间价值随着到期期间的增长而增加。</p>
-</li>
+<li><p>期权的时间价值反映了交易商愿意为标的资产价格波动的不确定性所支付的代价。</p></li>
+<li><p>标的资产价格的波动率越高，期权的时间价值就越大。</p></li>
+<li><p>时间价值随着到期期间的增长而增加。</p></li>
 </ul>
 <p>当股价接近执行价格时，不确定性是最大的，时间价值最高。而对于深度实值看涨期权与深度虚值看涨期权来说，相应的其时间价值极低。</p>
-<h4 id="欧式期权的时间价值"><a href="#欧式期权的时间价值" class="headerlink" title="欧式期权的时间价值"></a>欧式期权的时间价值</h4><p><img src="https://raw.githubusercontent.com/Accelerator086/accelerator086-image-upload/master/20200331151234.png" alt=""></p>
-<p>RT，以无收益资产看涨期权为例，当$S = X e^{- r(T - t)}$时，期权的时间价值最大。</p>
+<h4 id="欧式期权的时间价值">欧式期权的时间价值</h4>
+<p><img src="https://raw.githubusercontent.com/Accelerator086/accelerator086-image-upload/master/20200331151234.png" /></p>
+<p>RT，以无收益资产看涨期权为例，当<span class="math inline">\(S = X e^{- r(T - t)}\)</span>时，期权的时间价值最大。</p>
 <p>同样的：</p>
 <ul>
-<li><p>有收益资产看涨期权的时间价值在$S = D + \ Xe^{- r(T - t)\ }$点最大，</p>
-</li>
-<li><p>无收益资产欧式看跌期权的时间价值在$S =  Xe^{- r(T - t)}$点最大，</p>
-</li>
-<li><p>有收益资产欧式看跌期权的时间价值在$S =  Xe^{-r(T - t)}+ D$点最大,</p>
-</li>
-<li><p>无收益资产美式看跌期权的时间价值在$S =  X$点最大，</p>
-</li>
-<li><p>有收益资产美式看跌期权的时间价值在$S = \ X+D$ 点最大。</p>
-</li>
+<li><p>有收益资产看涨期权的时间价值在<span class="math inline">\(S = D + \ Xe^{- r(T - t)\ }\)</span>点最大，</p></li>
+<li><p>无收益资产欧式看跌期权的时间价值在<span class="math inline">\(S = Xe^{- r(T - t)}\)</span>点最大，</p></li>
+<li><p>有收益资产欧式看跌期权的时间价值在<span class="math inline">\(S = Xe^{-r(T - t)}+ D\)</span>点最大,</p></li>
+<li><p>无收益资产美式看跌期权的时间价值在<span class="math inline">\(S = X\)</span>点最大，</p></li>
+<li><p>有收益资产美式看跌期权的时间价值在<span class="math inline">\(S = \ X+D\)</span> 点最大。</p></li>
 </ul>
-<h2 id="Call-Put-Parity"><a href="#Call-Put-Parity" class="headerlink" title="Call-Put Parity"></a>Call-Put Parity</h2><h3 id="Non-Dividend-European-Call-Option-v-s-European-Put-Option"><a href="#Non-Dividend-European-Call-Option-v-s-European-Put-Option" class="headerlink" title="Non-Dividend, European Call Option v.s. European Put Option"></a>Non-Dividend, European Call Option v.s. European Put Option</h3><p>Non-Dividend European Option 平价关系</p>
-<script type="math/tex; mode=display">
-c + Xe^{- r(T - t)} = p + S_0</script><p>其中 c 为 call option fee ,  X 为交割价格， r 为无风险利率， T-t 为时间间隔， p 为 put option fee ,  $S_0$ 为一单位标的资产的价格</p>
+<h2 id="call-put-parity">Call-Put Parity</h2>
+<h3 id="non-dividend-european-call-option-v.s.-european-put-option">Non-Dividend, European Call Option v.s. European Put Option</h3>
+<p>Non-Dividend European Option 平价关系 <span class="math display">\[
+c + Xe^{- r(T - t)} = p + S_0
+\]</span></p>
+<p>其中 c 为 call option fee , X 为交割价格， r 为无风险利率， T-t 为时间间隔， p 为 put option fee , <span class="math inline">\(S_0\)</span> 为一单位标的资产的价格</p>
 <blockquote>
 <p>证明过程：</p>
 <ul>
 <li><p>复制的思想：考虑以下两个投资组合</p>
 <ul>
-<li>产品A：一份 European Call Option + 金额为 $Xe^{-r(T-t)}$ 的债券 or 无风险投资</li>
+<li>产品A：一份 European Call Option + 金额为 <span class="math inline">\(Xe^{-r(T-t)}\)</span> 的债券 or 无风险投资</li>
 <li>产品B：一份有效期与协议价格均与上述期权相同的 European Put Option + 一单位标的资产</li>
 </ul>
-<p>期权到期时，两份资产价值均为 $\max (S_T,X)$ ，European Option 在执行日之前不能提前执行，故两个产品组合必须在 t 时刻具有相同的价值，否则存在套利机会。</p>
-</li>
-<li><p>反证法</p>
-</li>
+<p>期权到期时，两份资产价值均为 <span class="math inline">\(\max (S_T,X)\)</span> ，European Option 在执行日之前不能提前执行，故两个产品组合必须在 t 时刻具有相同的价值，否则存在套利机会。</p></li>
+<li><p>反证法</p></li>
 </ul>
 </blockquote>
-<h3 id="Dividend-European-Call-Option-v-s-European-Put-Option"><a href="#Dividend-European-Call-Option-v-s-European-Put-Option" class="headerlink" title="Dividend, European Call Option v.s. European Put Option"></a>Dividend, European Call Option v.s. European Put Option</h3><p>Dividend European Option 平价关系</p>
-<script type="math/tex; mode=display">
-c + D + Xe^{- r(T - t)} = p + S</script><blockquote>
-<p>证明：在标的资产有收益的情况下，我们只要把前面的组合 A 中的现金改为 $D + Xe^{- r(T-t)}$ 即可。</p>
+<h3 id="dividend-european-call-option-v.s.-european-put-option">Dividend, European Call Option v.s. European Put Option</h3>
+<p>Dividend European Option 平价关系 <span class="math display">\[
+c + D + Xe^{- r(T - t)} = p + S
+\]</span></p>
+<blockquote>
+<p>证明：在标的资产有收益的情况下，我们只要把前面的组合 A 中的现金改为 <span class="math inline">\(D + Xe^{- r(T-t)}\)</span> 即可。</p>
 </blockquote>
-<h3 id="Non-Dividend-American-Call-Option-v-s-American-Put-Option"><a href="#Non-Dividend-American-Call-Option-v-s-American-Put-Option" class="headerlink" title="Non-Dividend, American Call Option v.s. American Put Option"></a>Non-Dividend, American Call Option v.s. American Put Option</h3><p>Non-Dividend American Option 平价关系：</p>
-<script type="math/tex; mode=display">
-S - X < C - P \leq S - Xe^{- r(T - t)}</script><blockquote>
+<h3 id="non-dividend-american-call-option-v.s.-american-put-option">Non-Dividend, American Call Option v.s. American Put Option</h3>
+<p>Non-Dividend American Option 平价关系： <span class="math display">\[
+S - X &lt; C - P \leq S - Xe^{- r(T - t)}
+\]</span></p>
+<blockquote>
 <p>证明：</p>
 <ul>
-<li><p>不等式右端：$P &gt; p$ 且 $c = C$ </p>
-</li>
+<li><p>不等式右端：<span class="math inline">\(P &gt; p\)</span> 且 <span class="math inline">\(c = C\)</span></p></li>
 <li><p>不等式左端：</p>
 <ul>
 <li><p>复制：考虑以下两个组合，在这两个组合中，期权的执行价格和到期日相同：</p>
@@ -257,117 +260,139 @@ S - X < C - P \leq S - Xe^{- r(T - t)}</script><blockquote>
 </ul>
 <p>考虑 American Option 没有提前执行、提前执行情况：</p>
 <ul>
-<li>没有提前执行：<ul>
-<li>组合 A ：$\max(S_T,X)+Xe^{r(T-t)}-X$</li>
-<li>组合 B ：$\max(S_T,X)$</li>
+<li>没有提前执行：
+<ul>
+<li>组合 A ：<span class="math inline">\(\max(S_T,X)+Xe^{r(T-t)}-X\)</span></li>
+<li>组合 B ：<span class="math inline">\(\max(S_T,X)\)</span></li>
+</ul></li>
+<li>在 <span class="math inline">\(\tau\)</span> 时刻提前执行：
+<ul>
+<li>组合 A ：<span class="math inline">\(&gt;Xe^{r(\tau -t)}\)</span></li>
+<li>组合 B ：<span class="math inline">\(X\)</span></li>
+</ul></li>
 </ul>
-</li>
-<li>在 $\tau$ 时刻提前执行：<ul>
-<li>组合 A ：$&gt;Xe^{r(\tau -t)}$</li>
-<li>组合 B ：$X$</li>
-</ul>
-</li>
-</ul>
-<p>故组合 A 的价值大于组合 B </p>
-</li>
-<li><p>反证法</p>
-</li>
-</ul>
-</li>
+<p>故组合 A 的价值大于组合 B</p></li>
+<li><p>反证法</p></li>
+</ul></li>
 </ul>
 </blockquote>
-<h3 id="Dividend-American-Call-Option-v-s-American-Put-Option"><a href="#Dividend-American-Call-Option-v-s-American-Put-Option" class="headerlink" title="Dividend, American Call Option v.s. American Put Option"></a>Dividend, American Call Option v.s. American Put Option</h3><p>Dividend American Option 平价关系：</p>
-<script type="math/tex; mode=display">
-S - D - X\  < \ C - P\  < \ S - Xe^{- r(T - t)}</script><blockquote>
-<p>证明：只需要把组合 A 的现金改为 $D + X$ 即可。</p>
+<h3 id="dividend-american-call-option-v.s.-american-put-option">Dividend, American Call Option v.s. American Put Option</h3>
+<p>Dividend American Option 平价关系： <span class="math display">\[
+S - D - X\  &lt; \ C - P\  &lt; \ S - Xe^{- r(T - t)}
+\]</span></p>
+<blockquote>
+<p>证明：只需要把组合 A 的现金改为 <span class="math inline">\(D + X\)</span> 即可。</p>
+</blockquote>
+<blockquote>
 <p>上述内容参考书籍：</p>
 <p>《数量金融》（Paul Wilmott）Chapter 2</p>
 <p>《The Mathematics of Finance: Modeling and Hedging》Chapter 1 1.2.1&amp;1.3</p>
 </blockquote>
-<h2 id="期权价格的上下限"><a href="#期权价格的上下限" class="headerlink" title="期权价格的上下限"></a>期权价格的上下限</h2><p>如下约定，小写字母为 European Options，大写字母为 American Options</p>
-<h3 id="Call-Options："><a href="#Call-Options：" class="headerlink" title="Call Options："></a>Call Options：</h3><p>对于 American Call Option 和 European Call Option，标的资产价格就是 Call Option 价格的上限：</p>
-<script type="math/tex; mode=display">
-\displaylines{c \leq S_0 \\ C \leq S_0}</script><p>其中 $S_0$ 代表标的资产价格。反之，套利策略：购买股票，出售期权。（理解：否则没必要买期权）</p>
-<p>对于 Non-Dividend Stock の European Call Option，其下限：</p>
-<script type="math/tex; mode=display">
-c \geq \max(S_0 - Xe^{- r(T - t)},0)</script><blockquote>
+<h2 id="期权价格的上下限">期权价格的上下限</h2>
+<p>如下约定，小写字母为 European Options，大写字母为 American Options</p>
+<h3 id="call-options">Call Options：</h3>
+<p>对于 American Call Option 和 European Call Option，标的资产价格就是 Call Option 价格的上限： <span class="math display">\[
+\displaylines{c \leq S_0 \\ C \leq S_0}
+\]</span></p>
+<p>其中 <span class="math inline">\(S_0\)</span> 代表标的资产价格。反之，套利策略：购买股票，出售期权。（理解：否则没必要买期权）</p>
+<p>对于 Non-Dividend Stock の European Call Option，其下限： <span class="math display">\[
+c \geq \max(S_0 - Xe^{- r(T - t)},0)
+\]</span></p>
+<blockquote>
 <p>证明：</p>
 <p>考虑如下两个组合：</p>
 <ul>
-<li>组合A：一份 European Call Option 加上金额为 $Xe^{- r(T - t)}$ 的现金 or 无风险投资</li>
+<li>组合A：一份 European Call Option 加上金额为 <span class="math inline">\(Xe^{- r(T - t)}\)</span> 的现金 or 无风险投资</li>
 <li>组合B：一单位标的资产</li>
 </ul>
-<p>且期权的价值一定为正，可推得 </p>
-<script type="math/tex; mode=display">
-\max(S_T,X) \geq S_T \Rightarrow c+Xe^{-r(T-t)} \geq S_0 \Rightarrow c \geq \max(S_0-Xe^{-r(T-t)},0)</script></blockquote>
-<p>对于 Non-Dividend Stock の American Call Option 来说，其价格的下限：</p>
-<script type="math/tex; mode=display">
-C \geq \max\lbrack S - Xe^{- r(T - t)},0\rbrack</script><blockquote>
-<p>证明：由于 $C \geq c$（在到期之前，行使无红利股票的 Call Option 永远不是最佳选择， American Options 的持有者行使期权的机会包括 European Options 行使期权的机会，故 $V_{American} \geq V_{European}$ ）</p>
+<p>且期权的价值一定为正，可推得 <span class="math display">\[
+\max(S_T,X) \geq S_T \Rightarrow c+Xe^{-r(T-t)} \geq S_0 \Rightarrow c \geq \max(S_0-Xe^{-r(T-t)},0)
+\]</span></p>
 </blockquote>
-<p>对于 Dividend Stock の European Call Option，其价格的下限：</p>
-<script type="math/tex; mode=display">
-c \geq \max(S - D - Xe^{- r(T - t)},0)</script><blockquote>
-<p>证明：只要将上述组合 A 的现金改为 $D + Xe^{- r(T - t)}$ 即可，其中 D 为期权有效期内资产收益<strong>的 t 时刻现值</strong>。</p>
+<p>对于 Non-Dividend Stock の American Call Option 来说，其价格的下限： <span class="math display">\[
+C \geq \max\lbrack S - Xe^{- r(T - t)},0\rbrack
+\]</span></p>
+<blockquote>
+<p>证明：由于 <span class="math inline">\(C \geq c\)</span>（在到期之前，行使无红利股票的 Call Option 永远不是最佳选择， American Options 的持有者行使期权的机会包括 European Options 行使期权的机会，故 <span class="math inline">\(V_{American} \geq V_{European}\)</span> ）</p>
+</blockquote>
+<p>对于 Dividend Stock の European Call Option，其价格的下限： <span class="math display">\[
+c \geq \max(S - D - Xe^{- r(T - t)},0)
+\]</span></p>
+<blockquote>
+<p>证明：只要将上述组合 A 的现金改为 <span class="math inline">\(D + Xe^{- r(T - t)}\)</span> 即可，其中 D 为期权有效期内资产收益<strong>的 t 时刻现值</strong>。</p>
 </blockquote>
 <p>当股息在预计之中时，我们将不再有 American Call Option 是否提前行使的结论。有时在除息之前，行使 American Call Option 为最优，但在其他时刻行使 American Call Option 不会是最优策略。</p>
-<h3 id="Put-Options："><a href="#Put-Options：" class="headerlink" title="Put Options："></a>Put Options：</h3><p>对于 American Put Option，其价格的上限为：</p>
-<script type="math/tex; mode=display">
-P \leq X</script><p>而对于 European Put Option，其价格的上限为：</p>
-<script type="math/tex; mode=display">
-p \leq Xe^{- r(T - t)}</script><p>其中 X 为交割价格。反之，套利策略：卖出一单位期权，同时将卖出期权的所得费用以无风险利率进行投资。</p>
-<p>对于 Non-Dividend Stock の European Put Option，其价格的下限：</p>
-<script type="math/tex; mode=display">
-p \geq \max(Xe^{- r(T - t)} - S,0)</script><blockquote>
+<h3 id="put-options">Put Options：</h3>
+<p>对于 American Put Option，其价格的上限为： <span class="math display">\[
+P \leq X
+\]</span></p>
+<p>而对于 European Put Option，其价格的上限为： <span class="math display">\[
+p \leq Xe^{- r(T - t)}
+\]</span></p>
+<p>其中 X 为交割价格。反之，套利策略：卖出一单位期权，同时将卖出期权的所得费用以无风险利率进行投资。</p>
+<p>对于 Non-Dividend Stock の European Put Option，其价格的下限： <span class="math display">\[
+p \geq \max(Xe^{- r(T - t)} - S,0)
+\]</span></p>
+<blockquote>
 <p>证明：</p>
 <p>考虑以下两种组合：</p>
 <ul>
 <li>组合C：一份 European Put Option 加上一单位标的资产</li>
-<li>组合D：金额为 $Xe^{- r(T - t)}$ 的现金</li>
+<li>组合D：金额为 <span class="math inline">\(Xe^{- r(T - t)}\)</span> 的现金</li>
 </ul>
-<p>且期权价值一定为正，仿照上方可推得 </p>
-<script type="math/tex; mode=display">
-\max(S_T,X) \geq X \Rightarrow p+S_0 \geq Xe^{-r(T-t)} \Rightarrow p \geq \max(Xe^{-r(T-t)}-S_0,0)</script></blockquote>
-<p>对于 Dividend Stock の European Put Option ，其价格的下限：</p>
-<script type="math/tex; mode=display">
-p \geq \max(D + Xe^{- r(T - t)} - S,0)</script><blockquote>
-<p>证明：只要将上述组合 D 的现金改为$D + Xe^{- r(T - t)}$即可。</p>
+<p>且期权价值一定为正，仿照上方可推得 <span class="math display">\[
+\max(S_T,X) \geq X \Rightarrow p+S_0 \geq Xe^{-r(T-t)} \Rightarrow p \geq \max(Xe^{-r(T-t)}-S_0,0)
+\]</span></p>
+</blockquote>
+<p>对于 Dividend Stock の European Put Option ，其价格的下限： <span class="math display">\[
+p \geq \max(D + Xe^{- r(T - t)} - S,0)
+\]</span></p>
+<blockquote>
+<p>证明：只要将上述组合 D 的现金改为<span class="math inline">\(D + Xe^{- r(T - t)}\)</span>即可。</p>
 </blockquote>
 <p>从以上分析可以看出，European Option 的下限实际上就是其内在价值。</p>
-<p>对于 Non-Dividend Stock の American Put Option 来说，其价格的下限：</p>
-<script type="math/tex; mode=display">
-P \geq \max(K - S_{0},0)</script><blockquote>
+<p>对于 Non-Dividend Stock の American Put Option 来说，其价格的下限： <span class="math display">\[
+P \geq \max(K - S_{0},0)
+\]</span></p>
+<blockquote>
 <p>考虑：由于 American Put Option 不需要折现，可以提前行权，故其价格下限相对于 European Put Option ，可选择在 0 时刻交割。</p>
 </blockquote>
-<h3 id="提前执行-American-Option-是否合理？"><a href="#提前执行-American-Option-是否合理？" class="headerlink" title="提前执行 American Option 是否合理？"></a>提前执行 American Option 是否合理？</h3><h4 id="Non-Dividend-Stock-American-Call-Option"><a href="#Non-Dividend-Stock-American-Call-Option" class="headerlink" title="Non-Dividend Stock American Call Option"></a>Non-Dividend Stock American Call Option</h4><p>提前执行 Non-Dividend Stock の American Call Option 是不明智的，即同一种无收益标的资产的 American Call Option 和 European Call Option 的价值是相同的，即 $C = c$ 。</p>
+<h3 id="提前执行-american-option-是否合理">提前执行 American Option 是否合理？</h3>
+<h4 id="non-dividend-stock-american-call-option">Non-Dividend Stock American Call Option</h4>
+<p>提前执行 Non-Dividend Stock の American Call Option 是不明智的，即同一种无收益标的资产的 American Call Option 和 European Call Option 的价值是相同的，即 <span class="math inline">\(C = c\)</span> 。</p>
 <blockquote>
-<p>推导：$C \geq c \geq \max\lbrack S - Xe^{- r(T - t)},0\rbrack &gt; S - X$ ，最优的策略是要么持有 American Call Option ，要么出售进行交易。而放弃提前执行的权力。</p>
+<p>推导：<span class="math inline">\(C \geq c \geq \max\lbrack S - Xe^{- r(T - t)},0\rbrack &gt; S - X\)</span> ，最优的策略是要么持有 American Call Option ，要么出售进行交易。而放弃提前执行的权力。</p>
 <p>直观理解：</p>
 <p>现金会产生效益，提前执行 American Call Option 得到的标的资产无收益，且 American Call Option 的时间价值总为正。</p>
-<p>T 时刻的 pay-off 为 $S_T-K$ ，折现到 t 时刻为 $S_t-Ke^{-r(T-t)} &gt; S_t-K$ 没有必要提前执行权利。</p>
+<p>T 时刻的 pay-off 为 <span class="math inline">\(S_T-K\)</span> ，折现到 t 时刻为 <span class="math inline">\(S_t-Ke^{-r(T-t)} &gt; S_t-K\)</span> 没有必要提前执行权利。</p>
 </blockquote>
-<h4 id="Non-Dividend-Stock-American-Put-Option"><a href="#Non-Dividend-Stock-American-Put-Option" class="headerlink" title="Non-Dividend Stock American Put Option"></a>Non-Dividend Stock American Put Option</h4><blockquote>
+<h4 id="non-dividend-stock-american-put-option">Non-Dividend Stock American Put Option</h4>
+<blockquote>
 <p>最简单的情况：资产几乎没有价值，此时执行 American Put Option 。</p>
 </blockquote>
-<p>是否提前执行 Non-Dividend Stock の American Put Option ，主要取决于期权的实内在价值额 $(X-S_0)$ 、无风险利率水平等因素。一般而言，只有  $(X-S_0)$较大，或者无风险利率较大时，才会提前执行 American Put Option 是有利的。</p>
-<h4 id="Dividend-Stock-American-Option"><a href="#Dividend-Stock-American-Option" class="headerlink" title="Dividend Stock American Option"></a>Dividend Stock American Option</h4><p>在有收益情况下，由于提前执行 Dividend Stock American Option 可较早获得标的资产，从而获得现金收益及其派生的利息，故只有在除权前的瞬时时刻提前执行 Dividend Stock の American Call Option 才有可能是最优的。</p>
-<p>考察在最后一个除权日 $t_n$ 提前执行的条件。若在 $t_n$ 时刻提前执行期权，则期权多方获得 $S_n-X$ 的收益。若不提前执行，则标的资产价格由于除权将降到 $S_n-D_n$ 。此时，在 $t_n$ 时刻的期权价值</p>
-<script type="math/tex; mode=display">
-C_n \geq c_n \geq \max(S_n-D_n-Xe^{-r(T-t_n)},0)</script><p>此时，</p>
+<p>是否提前执行 Non-Dividend Stock の American Put Option ，主要取决于期权的实内在价值额 <span class="math inline">\((X-S_0)\)</span> 、无风险利率水平等因素。一般而言，只有 <span class="math inline">\((X-S_0)\)</span>较大，或者无风险利率较大时，才会提前执行 American Put Option 是有利的。</p>
+<h4 id="dividend-stock-american-option">Dividend Stock American Option</h4>
+<p>在有收益情况下，由于提前执行 Dividend Stock American Option 可较早获得标的资产，从而获得现金收益及其派生的利息，故只有在除权前的瞬时时刻提前执行 Dividend Stock の American Call Option 才有可能是最优的。</p>
+<p>考察在最后一个除权日 <span class="math inline">\(t_n\)</span> 提前执行的条件。若在 <span class="math inline">\(t_n\)</span> 时刻提前执行期权，则期权多方获得 <span class="math inline">\(S_n-X\)</span> 的收益。若不提前执行，则标的资产价格由于除权将降到 <span class="math inline">\(S_n-D_n\)</span> 。此时，在 <span class="math inline">\(t_n\)</span> 时刻的期权价值 <span class="math display">\[
+C_n \geq c_n \geq \max(S_n-D_n-Xe^{-r(T-t_n)},0)
+\]</span> 此时，</p>
 <ul>
-<li>若 $S_n-D_n-Xe^{-r(T-t_n)} \geq S_n-X$ ，即 $D_n \leq X[1-e^{-r(T-t_n)}]$ ，则在 $t_n$ 时刻执行 American Call Option 是不明智的。</li>
-<li>若 $S_n-D_n-Xe^{-r(T-t_n)} \leq S_n-X$ ，即 $D_n \geq X[1-e^{-r(T-t_n)}]$ ，则在 $t_n$ 时刻执行 American Call Option 是明智的。</li>
+<li>若 <span class="math inline">\(S_n-D_n-Xe^{-r(T-t_n)} \geq S_n-X\)</span> ，即 <span class="math inline">\(D_n \leq X[1-e^{-r(T-t_n)}]\)</span> ，则在 <span class="math inline">\(t_n\)</span> 时刻执行 American Call Option 是不明智的。</li>
+<li>若 <span class="math inline">\(S_n-D_n-Xe^{-r(T-t_n)} \leq S_n-X\)</span> ，即 <span class="math inline">\(D_n \geq X[1-e^{-r(T-t_n)}]\)</span> ，则在 <span class="math inline">\(t_n\)</span> 时刻执行 American Call Option 是明智的。</li>
 </ul>
-<p>而这实际上只有当 $t_n$ 时刻标的资产价格足够大时才是合理的。</p>
-<p>对于任意在 $t_{i}$ 时刻不能提前执行 Dividend Stock の American Call Option 充分条件是：</p>
-<script type="math/tex; mode=display">
-D_{i} \leq X\lbrack 1 - e^{- r(t_{i + 1} - t_{i})}\rbrack</script><p>Dividend Stock の American Put Option 不能提前执行的充分条件是：</p>
-<script type="math/tex; mode=display">
-\displaylines{D_{i} \geq X\lbrack 1 - e^{- r({t_{i}}_{+ 1} - t_{i})}\rbrack \\ D_{n} \geq X\lbrack 1 - e^{- r(T - t_{n})}\rbrack}</script><p>提前执行期权的权利价值正是 American Option 和 European Option 的区别所在，只有股票附有红利时，该权利才会凸显价值。</p>
-<h2 id="期权价格曲线的形状"><a href="#期权价格曲线的形状" class="headerlink" title="期权价格曲线的形状"></a>期权价格曲线的形状</h2><p><img src="https://raw.githubusercontent.com/Accelerator086/accelerator086-image-upload/master/20200331151737.png" alt=""></p>
-<p><img src="https://raw.githubusercontent.com/Accelerator086/accelerator086-image-upload/master/20200331151744.png" alt=""></p>
-<p><img src="https://raw.githubusercontent.com/Accelerator086/accelerator086-image-upload/master/20200331151749.png" alt=""></p>
-</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:accelerator086@outlook.com">Accelerator</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://accelerator086.github.io/2019/01/17/Notes-for-Financial-Derivatives-4/">http://accelerator086.github.io/2019/01/17/Notes-for-Financial-Derivatives-4/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a> 许可协议。转载请注明来自 <a href="http://accelerator086.github.io" target="_blank">Accelerator086</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Financial-Mathematics/">Financial Mathematics</a><a class="post-meta__tags" href="/tags/Financial-Derivatives/">Financial Derivatives</a><a class="post-meta__tags" href="/tags/Undergraduate/">Undergraduate</a></div><div class="post_share"><div class="social-share" data-image="/pic/15888928.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2019/01/17/Notes-for-Financial-Derivatives-5/"><img class="prev-cover" src="/pic/new_folder4/Konachan142650.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Financial Derivatives Chapter 5：Preview-Stochastic Process</div></div></a></div><div class="next-post pull-right"><a href="/2019/01/17/Notes-for-Financial-Derivatives-7/"><img class="next-cover" src="/pic/new_folder4/Konachan142650.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Financial Derivatives Chapter 7：After B-S Formula</div></div></a></div></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="waline-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%9C%9F%E6%9D%83%E7%9A%84%E4%BB%B7%E5%80%BC%E7%89%B9%E5%BE%81"><span class="toc-number">1.</span> <span class="toc-text">期权的价值特征</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%9F%E6%9D%83%E4%BB%B7%E5%80%BC%E5%8F%98%E5%8C%96%E7%89%B9%E5%BE%81"><span class="toc-number">1.1.</span> <span class="toc-text">期权价值变化特征</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%9B%B4%E8%A7%82%E8%A7%A3%E9%87%8A"><span class="toc-number">1.1.1.</span> <span class="toc-text">直观解释</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%9F%E6%9D%83%E4%BB%B7%E5%80%BC%E7%BB%93%E6%9E%84"><span class="toc-number">1.2.</span> <span class="toc-text">期权价值结构</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9E%E5%80%BC%E6%9C%9F%E6%9D%83%E3%80%81%E5%B9%B3%E4%BB%B7%E6%9C%9F%E6%9D%83%E3%80%81%E8%99%9A%E5%80%BC%E6%9C%9F%E6%9D%83"><span class="toc-number">1.2.1.</span> <span class="toc-text">实值期权、平价期权、虚值期权</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9C%9F%E6%9D%83%E7%9A%84%E5%86%85%E5%9C%A8%E4%BB%B7%E5%80%BC"><span class="toc-number">1.2.2.</span> <span class="toc-text">期权的内在价值</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%AC%A7%E5%BC%8F%E6%9C%9F%E6%9D%83%E7%9A%84%E5%86%85%E5%9C%A8%E4%BB%B7%E5%80%BC"><span class="toc-number">1.2.2.1.</span> <span class="toc-text">欧式期权的内在价值</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9C%9F%E6%9D%83%E7%9A%84%E6%97%B6%E9%97%B4%E4%BB%B7%E5%80%BC"><span class="toc-number">1.2.3.</span> <span class="toc-text">期权的时间价值</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%AC%A7%E5%BC%8F%E6%9C%9F%E6%9D%83%E7%9A%84%E6%97%B6%E9%97%B4%E4%BB%B7%E5%80%BC"><span class="toc-number">1.2.3.1.</span> <span class="toc-text">欧式期权的时间价值</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Call-Put-Parity"><span class="toc-number">1.3.</span> <span class="toc-text">Call-Put Parity</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Non-Dividend-European-Call-Option-v-s-European-Put-Option"><span class="toc-number">1.3.1.</span> <span class="toc-text">Non-Dividend, European Call Option v.s. European Put Option</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Dividend-European-Call-Option-v-s-European-Put-Option"><span class="toc-number">1.3.2.</span> <span class="toc-text">Dividend, European Call Option v.s. European Put Option</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Non-Dividend-American-Call-Option-v-s-American-Put-Option"><span class="toc-number">1.3.3.</span> <span class="toc-text">Non-Dividend, American Call Option v.s. American Put Option</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Dividend-American-Call-Option-v-s-American-Put-Option"><span class="toc-number">1.3.4.</span> <span class="toc-text">Dividend, American Call Option v.s. American Put Option</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%9F%E6%9D%83%E4%BB%B7%E6%A0%BC%E7%9A%84%E4%B8%8A%E4%B8%8B%E9%99%90"><span class="toc-number">1.4.</span> <span class="toc-text">期权价格的上下限</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Call-Options%EF%BC%9A"><span class="toc-number">1.4.1.</span> <span class="toc-text">Call Options：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Put-Options%EF%BC%9A"><span class="toc-number">1.4.2.</span> <span class="toc-text">Put Options：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8F%90%E5%89%8D%E6%89%A7%E8%A1%8C-American-Option-%E6%98%AF%E5%90%A6%E5%90%88%E7%90%86%EF%BC%9F"><span class="toc-number">1.4.3.</span> <span class="toc-text">提前执行 American Option 是否合理？</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Non-Dividend-Stock-American-Call-Option"><span class="toc-number">1.4.3.1.</span> <span class="toc-text">Non-Dividend Stock American Call Option</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Non-Dividend-Stock-American-Put-Option"><span class="toc-number">1.4.3.2.</span> <span class="toc-text">Non-Dividend Stock American Put Option</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Dividend-Stock-American-Option"><span class="toc-number">1.4.3.3.</span> <span class="toc-text">Dividend Stock American Option</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%9F%E6%9D%83%E4%BB%B7%E6%A0%BC%E6%9B%B2%E7%BA%BF%E7%9A%84%E5%BD%A2%E7%8A%B6"><span class="toc-number">1.5.</span> <span class="toc-text">期权价格曲线的形状</span></a></li></ol></li></ol></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2024 By Accelerator086</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="font-plus" type="button" title="放大字体"><i class="fas fa-plus"></i></button><button id="font-minus" type="button" title="缩小字体"><i class="fas fa-minus"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="chat_btn" type="button" title="rightside.chat_btn"><i class="fas fa-sms"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script>var preloader = {
+<p>而这实际上只有当 <span class="math inline">\(t_n\)</span> 时刻标的资产价格足够大时才是合理的。</p>
+<p>对于任意在 <span class="math inline">\(t_{i}\)</span> 时刻不能提前执行 Dividend Stock の American Call Option 充分条件是： <span class="math display">\[
+D_{i} \leq X\lbrack 1 - e^{- r(t_{i + 1} - t_{i})}\rbrack
+\]</span></p>
+<p>Dividend Stock の American Put Option 不能提前执行的充分条件是： <span class="math display">\[
+\displaylines{D_{i} \geq X\lbrack 1 - e^{- r({t_{i}}_{+ 1} - t_{i})}\rbrack \\ D_{n} \geq X\lbrack 1 - e^{- r(T - t_{n})}\rbrack}
+\]</span></p>
+<p>提前执行期权的权利价值正是 American Option 和 European Option 的区别所在，只有股票附有红利时，该权利才会凸显价值。</p>
+<h2 id="期权价格曲线的形状">期权价格曲线的形状</h2>
+<p><img src="https://raw.githubusercontent.com/Accelerator086/accelerator086-image-upload/master/20200331151737.png" /></p>
+<p><img src="https://raw.githubusercontent.com/Accelerator086/accelerator086-image-upload/master/20200331151744.png" /></p>
+<p><img src="https://raw.githubusercontent.com/Accelerator086/accelerator086-image-upload/master/20200331151749.png" /></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:accelerator086@outlook.com">Accelerator</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://accelerator086.github.io/2019/01/17/Notes-for-Financial-Derivatives-4/">http://accelerator086.github.io/2019/01/17/Notes-for-Financial-Derivatives-4/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a> 许可协议。转载请注明来自 <a href="http://accelerator086.github.io" target="_blank">Accelerator086</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Financial-Mathematics/">Financial Mathematics</a><a class="post-meta__tags" href="/tags/Financial-Derivatives/">Financial Derivatives</a><a class="post-meta__tags" href="/tags/Undergraduate/">Undergraduate</a></div><div class="post_share"><div class="social-share" data-image="/pic/15888928.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2019/01/17/Notes-for-Financial-Derivatives-3/"><img class="prev-cover" src="/pic/new_folder4/Konachan142650.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Financial Derivatives Chapter 3：Non-arbitrary Pricing Theory &amp; Binomial Trees</div></div></a></div><div class="next-post pull-right"><a href="/2019/01/17/Notes-for-Financial-Derivatives-5/"><img class="next-cover" src="/pic/new_folder4/Konachan142650.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Financial Derivatives Chapter 5：Preview-Stochastic Process</div></div></a></div></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="waline-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%9C%9F%E6%9D%83%E7%9A%84%E4%BB%B7%E5%80%BC%E7%89%B9%E5%BE%81"><span class="toc-number">1.</span> <span class="toc-text">期权的价值特征</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%9F%E6%9D%83%E4%BB%B7%E5%80%BC%E5%8F%98%E5%8C%96%E7%89%B9%E5%BE%81"><span class="toc-number">1.1.</span> <span class="toc-text">期权价值变化特征</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%9B%B4%E8%A7%82%E8%A7%A3%E9%87%8A"><span class="toc-number">1.1.1.</span> <span class="toc-text">直观解释</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%9F%E6%9D%83%E4%BB%B7%E5%80%BC%E7%BB%93%E6%9E%84"><span class="toc-number">1.2.</span> <span class="toc-text">期权价值结构</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9E%E5%80%BC%E6%9C%9F%E6%9D%83%E5%B9%B3%E4%BB%B7%E6%9C%9F%E6%9D%83%E8%99%9A%E5%80%BC%E6%9C%9F%E6%9D%83"><span class="toc-number">1.2.1.</span> <span class="toc-text">实值期权、平价期权、虚值期权</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9C%9F%E6%9D%83%E7%9A%84%E5%86%85%E5%9C%A8%E4%BB%B7%E5%80%BC"><span class="toc-number">1.2.2.</span> <span class="toc-text">期权的内在价值</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%AC%A7%E5%BC%8F%E6%9C%9F%E6%9D%83%E7%9A%84%E5%86%85%E5%9C%A8%E4%BB%B7%E5%80%BC"><span class="toc-number">1.2.2.1.</span> <span class="toc-text">欧式期权的内在价值</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9C%9F%E6%9D%83%E7%9A%84%E6%97%B6%E9%97%B4%E4%BB%B7%E5%80%BC"><span class="toc-number">1.2.3.</span> <span class="toc-text">期权的时间价值</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%AC%A7%E5%BC%8F%E6%9C%9F%E6%9D%83%E7%9A%84%E6%97%B6%E9%97%B4%E4%BB%B7%E5%80%BC"><span class="toc-number">1.2.3.1.</span> <span class="toc-text">欧式期权的时间价值</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#call-put-parity"><span class="toc-number">1.3.</span> <span class="toc-text">Call-Put Parity</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#non-dividend-european-call-option-v.s.-european-put-option"><span class="toc-number">1.3.1.</span> <span class="toc-text">Non-Dividend, European Call Option v.s. European Put Option</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#dividend-european-call-option-v.s.-european-put-option"><span class="toc-number">1.3.2.</span> <span class="toc-text">Dividend, European Call Option v.s. European Put Option</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#non-dividend-american-call-option-v.s.-american-put-option"><span class="toc-number">1.3.3.</span> <span class="toc-text">Non-Dividend, American Call Option v.s. American Put Option</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#dividend-american-call-option-v.s.-american-put-option"><span class="toc-number">1.3.4.</span> <span class="toc-text">Dividend, American Call Option v.s. American Put Option</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%9F%E6%9D%83%E4%BB%B7%E6%A0%BC%E7%9A%84%E4%B8%8A%E4%B8%8B%E9%99%90"><span class="toc-number">1.4.</span> <span class="toc-text">期权价格的上下限</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#call-options"><span class="toc-number">1.4.1.</span> <span class="toc-text">Call Options：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#put-options"><span class="toc-number">1.4.2.</span> <span class="toc-text">Put Options：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8F%90%E5%89%8D%E6%89%A7%E8%A1%8C-american-option-%E6%98%AF%E5%90%A6%E5%90%88%E7%90%86"><span class="toc-number">1.4.3.</span> <span class="toc-text">提前执行 American Option 是否合理？</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#non-dividend-stock-american-call-option"><span class="toc-number">1.4.3.1.</span> <span class="toc-text">Non-Dividend Stock American Call Option</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#non-dividend-stock-american-put-option"><span class="toc-number">1.4.3.2.</span> <span class="toc-text">Non-Dividend Stock American Put Option</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#dividend-stock-american-option"><span class="toc-number">1.4.3.3.</span> <span class="toc-text">Dividend Stock American Option</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%9F%E6%9D%83%E4%BB%B7%E6%A0%BC%E6%9B%B2%E7%BA%BF%E7%9A%84%E5%BD%A2%E7%8A%B6"><span class="toc-number">1.5.</span> <span class="toc-text">期权价格曲线的形状</span></a></li></ol></li></ol></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2025 By Accelerator086</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="font-plus" type="button" title="放大字体"><i class="fas fa-plus"></i></button><button id="font-minus" type="button" title="缩小字体"><i class="fas fa-minus"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="chat_btn" type="button" title="rightside.chat_btn"><i class="fas fa-sms"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script>var preloader = {
   endLoading: () => {
     document.body.style.overflow = 'auto';
     document.getElementById('loading-box').classList.add("loaded")
